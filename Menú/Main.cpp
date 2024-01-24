@@ -3,6 +3,12 @@
 using namespace std;
 
 int main() {
+  
+  
+  cout << "**************************************************" << endl;
+  cout << "************** CALCULADORA GEOMETRICA ************" << endl;
+  cout << "**************************************************" << endl;
+  
 
   int opcion, figura;
   double lado1, lado2, lado3, lado4, radio, apotema, bmayor, bmenor, h;
@@ -298,6 +304,10 @@ if(figura == 1) {
   break; 
 }
 
+  } while(opcion != 4);
+  
+  return 0;
+}
   } while(opcion != 4);
   
   return 0;
